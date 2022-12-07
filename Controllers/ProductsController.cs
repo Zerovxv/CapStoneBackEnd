@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,14 +24,14 @@ namespace CapStone.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products.Include(x => x.Vendors).ToListAsync();
         }
 
         // GET: api/Products/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = await _context.Products.Include(x => x.Vendors).SingleOrDefaultAsync(x => x.Id == id);
 
             if (product == null)
             {

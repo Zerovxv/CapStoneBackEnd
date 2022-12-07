@@ -256,3 +256,9 @@ C:\repos\CapStone\CapStone\obj\Debug\net6.0\refint\CapStone.dll
 C:\repos\CapStone\CapStone\obj\Debug\net6.0\CapStone.pdb
 C:\repos\CapStone\CapStone\obj\Debug\net6.0\CapStone.genruntimeconfig.cache
 C:\repos\CapStone\CapStone\obj\Debug\net6.0\ref\CapStone.dll
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\angular.json
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\package-lock.json
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\package.json
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\tsconfig.app.json
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\tsconfig.json
+C:\repos\CapStone\CapStone\bin\Debug\net6.0\tsconfig.spec.json
